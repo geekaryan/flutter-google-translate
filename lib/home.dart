@@ -22,7 +22,7 @@ class _HomeState extends State<Home> {
   void translate() {
     translator.translate(text, to: "hi").then((output) {
       setState(() {
-        text = output;
+        text = 'output';
       });
     });
   }
